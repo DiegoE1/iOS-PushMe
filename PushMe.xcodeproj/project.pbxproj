@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5399BC8212C6BEC0094F4F0 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5399BC7212C6BEC0094F4F0 /* GameOverScene.swift */; };
 		C58B8379212B563100C60CAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B8378212B563100C60CAF /* AppDelegate.swift */; };
 		C58B837B212B563100C60CAF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C58B837A212B563100C60CAF /* GameScene.sks */; };
 		C58B837D212B563100C60CAF /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C58B837C212B563100C60CAF /* Actions.sks */; };
@@ -16,6 +17,7 @@
 		C58B8386212B563200C60CAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58B8385212B563200C60CAF /* Assets.xcassets */; };
 		C58B8389212B563200C60CAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C58B8387212B563200C60CAF /* LaunchScreen.storyboard */; };
 		C58B8394212B563200C60CAF /* PushMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B8393212B563200C60CAF /* PushMeTests.swift */; };
+		C58B839F212B581400C60CAF /* GameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B839E212B581400C60CAF /* GameElements.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C5399BC7212C6BEC0094F4F0 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 		C58B8375212B563100C60CAF /* PushMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C58B8378212B563100C60CAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C58B837A212B563100C60CAF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -42,6 +45,7 @@
 		C58B838F212B563200C60CAF /* PushMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C58B8393212B563200C60CAF /* PushMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushMeTests.swift; sourceTree = "<group>"; };
 		C58B8395212B563200C60CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C58B839E212B581400C60CAF /* GameElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameElements.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 				C58B837A212B563100C60CAF /* GameScene.sks */,
 				C58B837C212B563100C60CAF /* Actions.sks */,
 				C58B837E212B563100C60CAF /* GameScene.swift */,
+				C58B839E212B581400C60CAF /* GameElements.swift */,
+				C5399BC7212C6BEC0094F4F0 /* GameOverScene.swift */,
 				C58B8380212B563100C60CAF /* GameViewController.swift */,
 				C58B8382212B563100C60CAF /* Main.storyboard */,
 				C58B8385212B563200C60CAF /* Assets.xcassets */,
@@ -208,6 +214,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5399BC8212C6BEC0094F4F0 /* GameOverScene.swift in Sources */,
+				C58B839F212B581400C60CAF /* GameElements.swift in Sources */,
 				C58B837F212B563100C60CAF /* GameScene.swift in Sources */,
 				C58B8381212B563100C60CAF /* GameViewController.swift in Sources */,
 				C58B8379212B563100C60CAF /* AppDelegate.swift in Sources */,
@@ -371,12 +379,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FVP2NS64LV;
 				INFOPLIST_FILE = PushMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.PushMe;
+				PRODUCT_BUNDLE_IDENTIFIER = Espinosa.Diego.PushMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -388,12 +398,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FVP2NS64LV;
 				INFOPLIST_FILE = PushMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.PushMe;
+				PRODUCT_BUNDLE_IDENTIFIER = Espinosa.Diego.PushMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
