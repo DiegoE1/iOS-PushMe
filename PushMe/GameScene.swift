@@ -95,8 +95,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         updateWithTimeSinceLastUpdate(timeSinceLastUpdate: timeSinceLastUpdate)
         
-        
-        
     }
     
     func didBegin(_ contact: SKPhysicsContact) {

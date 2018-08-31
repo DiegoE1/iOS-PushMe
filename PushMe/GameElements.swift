@@ -31,7 +31,7 @@ enum RowType:Int{
 
 extension GameScene{
     func addPlayer(){
-        player = SKSpriteNode(color: UIColor.red, size: CGSize(width: 50, height: 50))
+        player = SKSpriteNode(color: UIColor.green, size: CGSize(width: 50, height: 50))
         player.position = CGPoint(x: self.size.width / 2, y: 350)
         player.name = "PLAYER"
         player.physicsBody?.isDynamic = false
@@ -40,7 +40,7 @@ extension GameScene{
         player.physicsBody?.collisionBitMask = 0
         player.physicsBody?.contactTestBitMask = CollisionBitMask.Obstacle
         
-        player2 = SKSpriteNode(color: UIColor.red, size: CGSize(width: 50, height: 50))
+        player2 = SKSpriteNode(color: UIColor.green, size: CGSize(width: 50, height: 50))
         player2.position = CGPoint(x: self.size.width/2, y: 350)
         player2.name = "PLAYER"
         player2.physicsBody?.isDynamic = false
